@@ -283,7 +283,9 @@ input[type=submit]:hover {
 	margin-left: 20px;
 }
 
-
+input [name=password] {
+	-webkit-text-security: disc;
+}
 
 
 
