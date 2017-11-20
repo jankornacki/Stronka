@@ -283,10 +283,15 @@ input[type=submit]:hover {
 	margin-left: 20px;
 }
 
-input [name=password] {
-	-webkit-text-security: disc;
+input[type=password] {
+    width: 200px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 4px;
+	margin-bottom: 5px;	
+	margin-top: 3px;
+	outline: none;
 }
-
 
 
 
